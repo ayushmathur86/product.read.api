@@ -1,0 +1,222 @@
+[
+  {
+    "name": "Adidas Ultraboost",
+    "model_number": "UB2025",
+    "product_type": "Running Shoes",
+    "meta_data": {
+      "page_title": "Adidas Running Shoes",
+      "site_name": "Adidas Store",
+      "description": "High quality running shoes",
+      "keywords": "running, shoes, adidas",
+      "canonical": "https://www.adidas.com/product/123"
+    },
+    "pricing_information": {
+      "standard_price": 120.0,
+      "standard_price_no_vat": 100.0,
+      "currentPrice": 90.0
+    },
+    "product_description": {
+      "title": "Adidas Ultraboost",
+      "subtitle": "Comfortable running shoes",
+      "text": "These shoes provide excellent cushioning and energy return."
+    }
+  },
+  {
+    "name": "Adidas Superstar",
+    "model_number": "SS2025",
+    "product_type": "Casual Shoes",
+    "meta_data": {
+      "page_title": "Adidas Superstar Classic",
+      "site_name": "Adidas Store",
+      "description": "Iconic sneakers with timeless design.",
+      "keywords": "superstar, casual, adidas",
+      "canonical": "https://www.adidas.com/product/456"
+    },
+    "pricing_information": {
+      "standard_price": 90.0,
+      "standard_price_no_vat": 75.0,
+      "currentPrice": 80.0
+    },
+    "product_description": {
+      "title": "Adidas Superstar",
+      "subtitle": "Classic everyday sneakers",
+      "text": "Featuring the iconic shell toe and premium leather upper for lasting style."
+    }
+  },
+  {
+    "name": "Adidas NMD_R1",
+    "model_number": "NMD2025",
+    "product_type": "Lifestyle Shoes",
+    "meta_data": {
+      "page_title": "Adidas NMD R1",
+      "site_name": "Adidas Store",
+      "description": "Modern streetwear with a boost midsole.",
+      "keywords": "nmd, boost, lifestyle, adidas",
+      "canonical": "https://www.adidas.com/product/789"
+    },
+    "pricing_information": {
+      "standard_price": 150.0,
+      "standard_price_no_vat": 125.0,
+      "currentPrice": 130.0
+    },
+    "product_description": {
+      "title": "Adidas NMD_R1",
+      "subtitle": "Stylish urban shoes",
+      "text": "Combines modern design with responsive cushioning for all-day comfort."
+    }
+  },
+  {
+    "name": "Adidas Gazelle",
+    "model_number": "GAZ2025",
+    "product_type": "Retro Shoes",
+    "meta_data": {
+      "page_title": "Adidas Gazelle Retro",
+      "site_name": "Adidas Store",
+      "description": "A timeless icon from the 90s reimagined for today.",
+      "keywords": "gazelle, retro, suede, adidas",
+      "canonical": "https://www.adidas.com/product/321"
+    },
+    "pricing_information": {
+      "standard_price": 100.0,
+      "standard_price_no_vat": 85.0,
+      "currentPrice": 95.0
+    },
+    "product_description": {
+      "title": "Adidas Gazelle",
+      "subtitle": "Vintage style with modern comfort",
+      "text": "Crafted from premium suede, offering an authentic retro aesthetic."
+    }
+  },
+  {
+    "name": "Adidas Essentials Hoodie",
+    "model_number": "HOOD2025",
+    "product_type": "Apparel",
+    "meta_data": {
+      "page_title": "Adidas Essentials Hoodie",
+      "site_name": "Adidas Store",
+      "description": "A soft and comfortable hoodie for everyday wear.",
+      "keywords": "hoodie, adidas, essentials, apparel",
+      "canonical": "https://www.adidas.com/product/654"
+    },
+    "pricing_information": {
+      "standard_price": 65.0,
+      "standard_price_no_vat": 55.0,
+      "currentPrice": 60.0
+    },
+    "product_description": {
+      "title": "Adidas Essentials Hoodie",
+      "subtitle": "Casual comfort",
+      "text": "Made from a cotton-blend fabric for a cozy, relaxed fit."
+    }
+  },
+  {
+    "name": "Adidas Tiro 23 Pants",
+    "model_number": "TIRO2025",
+    "product_type": "Training Pants",
+    "meta_data": {
+      "page_title": "Adidas Tiro 23 Training Pants",
+      "site_name": "Adidas Store",
+      "description": "Designed for performance and comfort on and off the pitch.",
+      "keywords": "training, pants, tiro, adidas",
+      "canonical": "https://www.adidas.com/product/987"
+    },
+    "pricing_information": {
+      "standard_price": 55.0,
+      "standard_price_no_vat": 45.0,
+      "currentPrice": 50.0
+    },
+    "product_description": {
+      "title": "Adidas Tiro 23 Pants",
+      "subtitle": "Slim-fit training pants",
+      "text": "Features AEROREADY fabric that wicks away moisture during intense workouts."
+    }
+  },
+  {
+    "name": "Adidas Terrex Jacket",
+    "model_number": "TERR2025",
+    "product_type": "Outdoor Jacket",
+    "meta_data": {
+      "page_title": "Adidas Terrex Rain Jacket",
+      "site_name": "Adidas Store",
+      "description": "Waterproof jacket built for outdoor adventures.",
+      "keywords": "terrex, jacket, waterproof, adidas",
+      "canonical": "https://www.adidas.com/product/111"
+    },
+    "pricing_information": {
+      "standard_price": 180.0,
+      "standard_price_no_vat": 150.0,
+      "currentPrice": 160.0
+    },
+    "product_description": {
+      "title": "Adidas Terrex Jacket",
+      "subtitle": "Stay dry, stay moving",
+      "text": "Built with breathable waterproof technology to keep you dry in wet conditions."
+    }
+  },
+  {
+    "name": "Adidas Classic Backpack",
+    "model_number": "BP2025",
+    "product_type": "Accessories",
+    "meta_data": {
+      "page_title": "Adidas Classic Backpack",
+      "site_name": "Adidas Store",
+      "description": "Durable everyday backpack with iconic 3-Stripes design.",
+      "keywords": "backpack, adidas, accessories",
+      "canonical": "https://www.adidas.com/product/222"
+    },
+    "pricing_information": {
+      "standard_price": 45.0,
+      "standard_price_no_vat": 37.0,
+      "currentPrice": 40.0
+    },
+    "product_description": {
+      "title": "Adidas Classic Backpack",
+      "subtitle": "Carry with confidence",
+      "text": "Spacious design with multiple compartments for your essentials."
+    }
+  },
+  {
+    "name": "Nike Air Zoom Pegasus 41",
+    "model_number": "NZP41",
+    "product_type": "Running Shoes",
+    "meta_data": {
+      "page_title": "Nike Air Zoom Pegasus 41",
+      "site_name": "Nike Store",
+      "description": "Responsive running shoe with lightweight cushioning.",
+      "keywords": "nike, running, shoes, air zoom, pegasus",
+      "canonical": "https://www.nike.com/product/nzp41"
+    },
+    "pricing_information": {
+      "standard_price": 130.0,
+      "standard_price_no_vat": 108.0,
+      "currentPrice": 110.0
+    },
+    "product_description": {
+      "title": "Nike Air Zoom Pegasus 41",
+      "subtitle": "Built for everyday runs",
+      "text": "The Pegasus 41 offers a springy ride with Air Zoom units in the forefoot and heel for an energized feel."
+    }
+  },
+  {
+    "name": "Puma Future Rider Play On",
+    "model_number": "PFRPO2025",
+    "product_type": "Lifestyle Shoes",
+    "meta_data": {
+      "page_title": "Puma Future Rider Play On",
+      "site_name": "Puma Store",
+      "description": "Retro-inspired sneaker designed for comfort and style.",
+      "keywords": "puma, lifestyle, casual, sneakers",
+      "canonical": "https://www.puma.com/futureriderplayon"
+    },
+    "pricing_information": {
+      "standard_price": 95.0,
+      "standard_price_no_vat": 80.0,
+      "currentPrice": 85.0
+    },
+    "product_description": {
+      "title": "Puma Future Rider",
+      "subtitle": "Retro look. Modern comfort.",
+      "text": "Featuring a nylon upper with suede overlays, this shoe combines classic design with modern cushioning."
+    }
+  }
+]

@@ -2,15 +2,16 @@ package com.adidas.products.model;
 
 import java.io.Serializable;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Lob;
-import javax.persistence.Table;
+import javax.persistence.*;
 
+import com.adidas.products.util.JsonConverter;
+import com.adidas.products.util.MetaDataConverter;
+import com.adidas.products.util.PricingInformationConverter;
+import com.adidas.products.util.ProductDescriptionConverter;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+import io.swagger.v3.oas.annotations.media.Schema;
 import org.apache.commons.lang3.builder.ToStringBuilder;
-import org.codehaus.jackson.annotate.JsonProperty;
-
-import io.swagger.annotations.ApiModelProperty;
 
 /**
  * Class to represent the product.
@@ -21,28 +22,31 @@ import io.swagger.annotations.ApiModelProperty;
 public class Product implements Serializable {
 
     @Id
-    @ApiModelProperty(notes = "The ID of the product")
+    @Schema(description = "The ID of the product")
     private String id;
 
-    @ApiModelProperty(notes = "The name of the product")
+    @Schema(description = "The name of the product")
     private String name;
 
-    @ApiModelProperty(notes = "The model number of the product")
+    @Schema(description = "The model number of the product")
     private String modelNumber;
 
-    @ApiModelProperty(notes = "The type of the product")
+    @Schema(description = "The type of the product")
     private String productType;
 
     @Lob
-    @ApiModelProperty(notes = "The MetaData of the product")
+    @Convert(converter = MetaDataConverter.class)
+    @Schema(description = "The MetaData of the product")
     private MetaData metaData;
 
     @Lob
-    @ApiModelProperty(notes = "The Pricing Information of the product")
+    @Convert(converter = PricingInformationConverter.class)
+    @Schema(description = "The Pricing Information of the product")
     private PricingInformation pricingInformation;
 
     @Lob
-    @ApiModelProperty(notes = "The Description of the product")
+    @Convert(converter = ProductDescriptionConverter.class)
+    @Schema(description = "The Description of the product")
     private ProductDescription productDescription;
 
     private final static long serialVersionUID = 5630818181778103425L;

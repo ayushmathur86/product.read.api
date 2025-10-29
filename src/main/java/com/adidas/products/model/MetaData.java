@@ -2,6 +2,7 @@ package com.adidas.products.model;
 
 import java.io.Serializable;
 
+import io.swagger.v3.oas.annotations.media.Schema;
 import org.apache.commons.lang3.builder.EqualsBuilder;
 import org.apache.commons.lang3.builder.HashCodeBuilder;
 import org.apache.commons.lang3.builder.ToStringBuilder;
@@ -10,7 +11,6 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 
-import io.swagger.annotations.ApiModelProperty;
 
 /**
  * Class to represent meta_data of the product.
@@ -21,23 +21,23 @@ import io.swagger.annotations.ApiModelProperty;
 public class MetaData implements Serializable {
 
     @JsonProperty("page_title")
-    @ApiModelProperty(notes = "The page title of the product")
+    @Schema(description = "The page title of the product")
     private String pageTitle;
 
     @JsonProperty("site_name")
-    @ApiModelProperty(notes = "The site name of the product")
+    @Schema(description = "The site name of the product")
     private String siteName;
 
     @JsonProperty("description")
-    @ApiModelProperty(notes = "The description of the product")
+    @Schema(description = "The description of the product")
     private String description;
 
     @JsonProperty("keywords")
-    @ApiModelProperty(notes = "The keywords of the product")
+    @Schema(description = "The keywords of the product")
     private String keywords;
 
     @JsonProperty("canonical")
-    @ApiModelProperty(notes = "The canonical representation of the product")
+    @Schema(description = "The canonical representation of the product")
     private String canonical;
 
     private final static long serialVersionUID = -3847613725282647542L;
