@@ -83,42 +83,4 @@ public class ProductController {
         boolean isPresent = repository.existsById(id);
         return ResponseEntity.ok(isPresent);
     }
-
-    /**
-     * Create multiple new products.
-     * Accepts a JSON array with full product details including metaData, pricingInformation, and productDescription.
-     */
-
-
-    @Operation(summary = "Create multiple products", description = "Add multiple products with metadata, pricing, and descriptions. IDs are auto-generated if not provided.")
-    @ApiResponses(value = {
-            @ApiResponse(responseCode = "201", description = "Products created successfully",
-                    content = @Content(mediaType = "application/json",
-                            array = @ArraySchema(schema = @Schema(implementation = Product.class)))),
-            @ApiResponse(responseCode = "409", description = "One or more products already exist with the given IDs")
-    })
-    @PostMapping(value = "/bulk", produces = "application/json", consumes = "application/json")
-    public ResponseEntity<?> createProducts(@RequestBody List<Product> products) {
-        products.forEach(p -> {
-            if (p.getId() == null || p.getId().trim().isEmpty()) {
-                p.setId(UUID.randomUUID().toString());
-            }
-        });
-
-        List<String> existingIds = products.stream()
-                .map(Product::getId)
-                .filter(repository::existsById)
-                .collect(Collectors.toList());
-
-        if (!existingIds.isEmpty()) {
-            return ResponseEntity.status(HttpStatus.CONFLICT)
-                    .body("Products with these IDs already exist: " + existingIds);
-        }
-
-        List<Product> savedProducts = new ArrayList<>();
-        repository.saveAll(products).forEach(savedProducts::add);
-
-        return ResponseEntity.status(HttpStatus.CREATED).body(savedProducts);
-    }
-
 }
