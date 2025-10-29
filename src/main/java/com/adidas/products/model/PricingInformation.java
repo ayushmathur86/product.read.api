@@ -2,6 +2,7 @@ package com.adidas.products.model;
 
 import java.io.Serializable;
 
+import io.swagger.v3.oas.annotations.media.Schema;
 import org.apache.commons.lang3.builder.EqualsBuilder;
 import org.apache.commons.lang3.builder.HashCodeBuilder;
 import org.apache.commons.lang3.builder.ToStringBuilder;
@@ -10,7 +11,6 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 
-import io.swagger.annotations.ApiModelProperty;
 
 /**
  * Class to represent pricing_information of the product.
@@ -21,15 +21,15 @@ import io.swagger.annotations.ApiModelProperty;
 public class PricingInformation implements Serializable {
 
     @JsonProperty("standard_price")
-    @ApiModelProperty(notes = "The standard price of the product")
+    @Schema(description = "The standard price of the product")
     private double standardPrice;
 
     @JsonProperty("standard_price_no_vat")
-    @ApiModelProperty(notes = "The standard price without VAT of the product")
+    @Schema(description = "The standard price without VAT of the product")
     private double standardPriceNoVat;
 
     @JsonProperty("currentPrice")
-    @ApiModelProperty(notes = "The current price of the product")
+    @Schema(description = "The current price of the product")
     private double currentPrice;
 
     private final static long serialVersionUID = -3531910269169108709L;

@@ -2,6 +2,7 @@ package com.adidas.products.model;
 
 import java.io.Serializable;
 
+import io.swagger.v3.oas.annotations.media.Schema;
 import org.apache.commons.lang3.builder.EqualsBuilder;
 import org.apache.commons.lang3.builder.HashCodeBuilder;
 import org.apache.commons.lang3.builder.ToStringBuilder;
@@ -10,7 +11,6 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 
-import io.swagger.annotations.ApiModelProperty;
 
 /**
  * Class to represent product_description of the product.
@@ -21,15 +21,15 @@ import io.swagger.annotations.ApiModelProperty;
 public class ProductDescription implements Serializable {
 
     @JsonProperty("title")
-    @ApiModelProperty(notes = "The title of the product")
+    @Schema(description = "The title of the product")
     private String title;
 
     @JsonProperty("subtitle")
-    @ApiModelProperty(notes = "The subtitile of the product")
+    @Schema(description = "The subtitile of the product")
     private String subtitle;
 
     @JsonProperty("text")
-    @ApiModelProperty(notes = "The text of the product")
+    @Schema(description = "The text of the product")
     private String text;
 
     private final static long serialVersionUID = 7184786613965775002L;
