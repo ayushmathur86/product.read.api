@@ -1,8 +1,9 @@
 [
   {
+    "id": "1",
     "name": "Adidas Ultraboost",
     "model_number": "UB2025",
-    "product_type": "Running Shoes",
+    "product_type": "RunningShoes",
     "meta_data": {
       "page_title": "Adidas Running Shoes",
       "site_name": "Adidas Store",
@@ -22,9 +23,10 @@
     }
   },
   {
+    "id": "2",
     "name": "Adidas Superstar",
     "model_number": "SS2025",
-    "product_type": "Casual Shoes",
+    "product_type": "CasualShoes",
     "meta_data": {
       "page_title": "Adidas Superstar Classic",
       "site_name": "Adidas Store",
@@ -44,9 +46,10 @@
     }
   },
   {
+    "id": "3",
     "name": "Adidas NMD_R1",
     "model_number": "NMD2025",
-    "product_type": "Lifestyle Shoes",
+    "product_type": "LifestyleShoes",
     "meta_data": {
       "page_title": "Adidas NMD R1",
       "site_name": "Adidas Store",
@@ -66,9 +69,10 @@
     }
   },
   {
+    "id": "4",
     "name": "Adidas Gazelle",
     "model_number": "GAZ2025",
-    "product_type": "Retro Shoes",
+    "product_type": "RetroShoes",
     "meta_data": {
       "page_title": "Adidas Gazelle Retro",
       "site_name": "Adidas Store",
@@ -88,6 +92,7 @@
     }
   },
   {
+    "id": "5",
     "name": "Adidas Essentials Hoodie",
     "model_number": "HOOD2025",
     "product_type": "Apparel",
@@ -110,9 +115,10 @@
     }
   },
   {
+    "id": "6",
     "name": "Adidas Tiro 23 Pants",
     "model_number": "TIRO2025",
-    "product_type": "Training Pants",
+    "product_type": "TrainingPants",
     "meta_data": {
       "page_title": "Adidas Tiro 23 Training Pants",
       "site_name": "Adidas Store",
@@ -132,9 +138,10 @@
     }
   },
   {
+    "id": "7",
     "name": "Adidas Terrex Jacket",
     "model_number": "TERR2025",
-    "product_type": "Outdoor Jacket",
+    "product_type": "OutdoorJacket",
     "meta_data": {
       "page_title": "Adidas Terrex Rain Jacket",
       "site_name": "Adidas Store",
@@ -154,6 +161,7 @@
     }
   },
   {
+    "id": "8",
     "name": "Adidas Classic Backpack",
     "model_number": "BP2025",
     "product_type": "Accessories",
@@ -176,9 +184,10 @@
     }
   },
   {
+    "id": "9",
     "name": "Nike Air Zoom Pegasus 41",
     "model_number": "NZP41",
-    "product_type": "Running Shoes",
+    "product_type": "RunningShoes",
     "meta_data": {
       "page_title": "Nike Air Zoom Pegasus 41",
       "site_name": "Nike Store",
@@ -198,9 +207,10 @@
     }
   },
   {
+    "id": "10",
     "name": "Puma Future Rider Play On",
     "model_number": "PFRPO2025",
-    "product_type": "Lifestyle Shoes",
+    "product_type": "LifestyleShoes",
     "meta_data": {
       "page_title": "Puma Future Rider Play On",
       "site_name": "Puma Store",
